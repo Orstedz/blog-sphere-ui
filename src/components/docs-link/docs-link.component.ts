@@ -1,24 +1,27 @@
-import { Component, effect, input, linkedSignal } from '@angular/core';
+import { Component, HostBinding, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-docs-link',
   templateUrl: './docs-link.component.html',
-  host: {
-    class: 'float-end'
-  }
+  styleUrls: ['./docs-link.component.scss']
 })
-export class DocsLinkComponent {
+export class DocsLinkComponent implements OnInit {
 
-  readonly hrefInput = input('https://coreui.io/angular/docs/', { alias: 'href' });
+  @Input() href?: string = 'https://coreui.io/angular/docs/';
+  @Input() name?: string;
+  @Input() text?: string;
 
-  readonly href = linkedSignal(this.hrefInput);
+  constructor() { }
 
-  readonly name = input<string>();
-  readonly text = input<string>();
+  @HostBinding('class')
+  get hostClasses(): any {
+    return {
+      'float-end': true
+    };
+  }
 
-  readonly #nameEffect = effect(() => {
-    const name = this.name();
-    this.href.update(href => name ? `https://coreui.io/angular/docs/components/${name}` : href);
-  });
+  ngOnInit(): void {
+    this.href = this.name ? `https://coreui.io/angular/docs/components/${this.name}` : this.href;
+  }
 
 }

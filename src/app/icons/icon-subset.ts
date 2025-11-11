@@ -16,7 +16,6 @@ import {
   cifIn,
   cifPl,
   cifUs,
-  cilAccountLogout,
   cilAlignCenter,
   cilAlignLeft,
   cilAlignRight,
@@ -38,7 +37,6 @@ import {
   cilCloudDownload,
   cilCode,
   cilCommentSquare,
-  cilContrast,
   cilCreditCard,
   cilCursor,
   cilDescription,
@@ -46,16 +44,13 @@ import {
   cilDrop,
   cilEnvelopeClosed,
   cilEnvelopeOpen,
-  cilExternalLink,
   cilFile,
-  cilGrid,
   cilHome,
   cilInbox,
   cilIndentDecrease,
   cilIndentIncrease,
   cilItalic,
   cilJustifyCenter,
-  cilLanguage,
   cilLayers,
   cilList,
   cilListNumbered,
@@ -64,7 +59,6 @@ import {
   cilMagnifyingGlass,
   cilMap,
   cilMediaPlay,
-  cilMediaRecord,
   cilMenu,
   cilMoon,
   cilNotes,
@@ -97,9 +91,6 @@ import {
   cilUserUnfollow
 } from '@coreui/icons';
 
-import { signet } from './signet';
-import { logo } from './logo';
-
 export const iconSubset = {
   cibCcAmex,
   cibCcApplePay,
@@ -118,7 +109,6 @@ export const iconSubset = {
   cifIn,
   cifPl,
   cifUs,
-  cilAccountLogout,
   cilAlignCenter,
   cilAlignLeft,
   cilAlignRight,
@@ -140,7 +130,6 @@ export const iconSubset = {
   cilCloudDownload,
   cilCode,
   cilCommentSquare,
-  cilContrast,
   cilCreditCard,
   cilCursor,
   cilDescription,
@@ -148,16 +137,13 @@ export const iconSubset = {
   cilDrop,
   cilEnvelopeClosed,
   cilEnvelopeOpen,
-  cilExternalLink,
   cilFile,
-  cilGrid,
   cilHome,
   cilInbox,
   cilIndentDecrease,
   cilIndentIncrease,
   cilItalic,
   cilJustifyCenter,
-  cilLanguage,
   cilLayers,
   cilList,
   cilListNumbered,
@@ -166,7 +152,6 @@ export const iconSubset = {
   cilMagnifyingGlass,
   cilMap,
   cilMediaPlay,
-  cilMediaRecord,
   cilMenu,
   cilMoon,
   cilNotes,
@@ -196,9 +181,7 @@ export const iconSubset = {
   cilUser,
   cilUserFemale,
   cilUserFollow,
-  cilUserUnfollow,
-  logo,
-  signet
+  cilUserUnfollow
 };
 
 export enum IconSubset {
@@ -219,7 +202,6 @@ export enum IconSubset {
   cifIn = 'cifIn',
   cifPl = 'cifPl',
   cifUs = 'cifUs',
-  cilAccountLogout = 'cilAccountLogout',
   cilAlignCenter = 'cilAlignCenter',
   cilAlignLeft = 'cilAlignLeft',
   cilAlignRight = 'cilAlignRight',
@@ -241,7 +223,6 @@ export enum IconSubset {
   cilCloudDownload = 'cilCloudDownload',
   cilCode = 'cilCode',
   cilCommentSquare = 'cilCommentSquare',
-  cilContrast = 'cilContrast',
   cilCreditCard = 'cilCreditCard',
   cilCursor = 'cilCursor',
   cilDescription = 'cilDescription',
@@ -249,16 +230,13 @@ export enum IconSubset {
   cilDrop = 'cilDrop',
   cilEnvelopeClosed = 'cilEnvelopeClosed',
   cilEnvelopeOpen = 'cilEnvelopeOpen',
-  cilExternalLink = 'cilExternalLink',
   cilFile = 'cilFile',
-  cilGrid = 'cilGrid',
   cilHome = 'cilHome',
   cilInbox = 'cilInbox',
   cilIndentDecrease = 'cilIndentDecrease',
   cilIndentIncrease = 'cilIndentIncrease',
   cilItalic = 'cilItalic',
   cilJustifyCenter = 'cilJustifyCenter',
-  cilLanguage = 'cilLanguage',
   cilLayers = 'cilLayers',
   cilList = 'cilList',
   cilListNumbered = 'cilListNumbered',
@@ -267,7 +245,6 @@ export enum IconSubset {
   cilMagnifyingGlass = 'cilMagnifyingGlass',
   cilMap = 'cilMap',
   cilMediaPlay = 'cilMediaPlay',
-  cilMediaRecord = 'cilMediaRecord',
   cilMenu = 'cilMenu',
   cilMoon = 'cilMoon',
   cilNotes = 'cilNotes',
@@ -298,7 +275,4 @@ export enum IconSubset {
   cilUserFemale = 'cilUserFemale',
   cilUserFollow = 'cilUserFollow',
   cilUserUnfollow = 'cilUserUnfollow',
-  logo = 'logo',
-  signet = 'signet'
 }
-

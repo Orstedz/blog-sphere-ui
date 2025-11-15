@@ -1,7 +1,7 @@
 {
-  "name": "tedu-blog-cms-admin-ui",
+  "name": "blog-sphere-cms-admin-ui",
   "version": "4.5.16",
-  "copyright": "Copyright 2023 TEDU",
+  "copyright": "Copyright 2023 BlogSphere",
   "license": "MIT",
   "author": "The CoreUI Team (https://github.com/orgs/coreui/people) and contributors",
   "homepage": "https://coreui.io/angular",
